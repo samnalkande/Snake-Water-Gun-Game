@@ -95,20 +95,5 @@ You Have 10 Chances!
             print("It was a tie!")
             print("invalid")
 
-        print(10 - attempts, "no. of guesses left")
-        attempts = attempts + 1
-
-        if attempts > 10:
-            print("game over")
-
-    if computer_point > your_point:
-        print("********************************************************************")
-        print("Computer wins and you loose")
-
-    if computer_point < your_point:
-        print("********************************************************************")
-        print("you win and the computer looses")
-
-    print(f"your point is {your_point} and computer point is {computer_point}")
-    print("********************************************************************")
+       
 
